@@ -28,7 +28,7 @@ RUN set -x && \
     sudo wget -O /usr/local/bin/rsub https://raw.github.com/aurora/rmate/master/rmate && \
     ln -s /usr/local/bin/rsub /usr/local/bin/rmate && \
     chmod +x /usr/local/bin/rsub && \
-    cd /ap/sample-app && \
+    cd /app/sample-app && \
     yarn add @ng-bootstrap/ng-bootstrap amexio-ng-extensions && \
     echo done.
 
